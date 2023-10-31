@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+      background-color:  rgb(21, 17, 41);
+      overflow: hidden;
+}
+.header{
+  width: 100vw;  
+  height:80px;
+color: white;
+display: grid;
+place-items: center;
+}
+.main-title{
+    font-size: 2rem;
+}
+.subtitle{
+    font-size: 1.4rem;
+}
+ .container{
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+      
+ }
+ .col-resultado{
+    width: 60%;
+    height: 100%;
+
+ }
+.row-comunidad{
+    width: 100%;
+    margin: 10px;
+    padding: 0px 20px;
+    
+}
+.tittle{
+    font-size: 1.1rem;
+    color: white;
+}
+.progress-bar{
+    height: 13px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 5px;
+
+}
+.progress{
+    background-image:linear-gradient(90deg, blue,cyan),linear-gradient(45deg,red,violet);
+    width: 0px;
+    height: 13px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.votos{
+    font-size: 1.2rem;
+    color: white;
+}
+
+ .col-comunidades{
+    width: 40%;
+    height: 100%;
+    display: grid;   
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+
+ }
+.btn-options{
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(40, 40, 233);
+    color: white;
+}
+.btn-options:hover{
+    cursor: pointer;
+    background-color: red;
+    
+}
