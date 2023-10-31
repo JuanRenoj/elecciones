@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-      background-color:  rgb(21, 17, 41);
+      background-color:  rgb(22, 16, 37);
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
@@ -37,6 +37,7 @@ grid-template-columns: repeat(auto-fill, minmax(min(100%,500px),1fr));
 .row-comunidad{
    width: 100%;
    margin: 5px;
+   position: relative;
 
 }
 .tittle{
@@ -59,7 +60,9 @@ grid-template-columns: repeat(auto-fill, minmax(min(100%,500px),1fr));
 }
 .votos{
     font-size: 1.2rem;
-    color: white;
+    color: cyan;
+    position: absolute;
+    right: 0;
 }
 
  .col-comunidades{
@@ -82,4 +85,10 @@ grid-template-columns: repeat(auto-fill, minmax(min(100%,500px),1fr));
     cursor: pointer;
     background-color: red;
     
+}
+.div-cargos{
+    width: 100vw;
+    font-size: 1.2rem;
+    color: white;
+    padding: 15px;
 }
